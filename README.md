@@ -45,3 +45,20 @@
 ```bash
 # 安装项目依赖
 pip install -r requirements.txt
+```
+
+---
+
+## 📈 结论展示 (Results Visualization)
+
+模型在训练过程中展现了良好的收敛性。以下为训练过程中的 Loss 下降曲线（对应项目 `images/` 目录）：
+
+### 1. 线性回归训练曲线
+线性回归模型用于预测连续的心理疲劳分值。从收敛曲线可以看出，随着迭代次数增加，Loss 呈现平滑下降趋势，表明模型成功捕捉到了生活习惯、睡眠质量与心理疲劳之间的线性逻辑关系。
+
+![Linear Loss](./images/Linear%20Loss.png)
+
+### 2. Softmax 分类训练曲线
+Softmax 模型用于压力等级（Low/Medium/High）的三分类预测。在 100 轮训练后，Loss 稳定在较低水平，最终在测试集上取得了 **80.67%** 的准确率，有效实现了对离散压力等级的分类。
+
+![Softmax Loss](./images/Softmax%20Loss.png)
