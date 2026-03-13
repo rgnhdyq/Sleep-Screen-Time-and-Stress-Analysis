@@ -50,7 +50,7 @@ curl.exe -L -O "https://raw.githubusercontent.com/rgnhdyq/Sleep-Screen-Time-and-
 ```
 pip install -r requirements.txt
 ```
-
+### 请先执行main.py文件以便创建路径
 ---
 
 ## 📈 结论展示 (Results Visualization)
