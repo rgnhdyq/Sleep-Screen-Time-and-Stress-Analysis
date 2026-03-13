@@ -42,10 +42,12 @@
 
 ## 🛠️ 环境安装
 
+### 下载代码文件
 ```bash
-# 安装项目依赖
 curl.exe -L -O "https://raw.githubusercontent.com/rgnhdyq/Sleep-Screen-Time-and-Stress-Analysis/main/{DataPreprocessing.ipynb,LinearRegression.py,SoftmaxRegression.py,requirements.txt}"
-
+```
+### 安装项目依赖
+```
 pip install -r requirements.txt
 ```
 
