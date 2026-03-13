@@ -11,7 +11,7 @@
 
 ## 📊 数据集定义 (Dataset Schema)
 
-数据集来源：[睡眠数据](https://www.kaggle.com/datasets/jayjoshi37/sleep-screen-time-and-stress-analysis/data)
+数据集来源：[Kaggle](https://www.kaggle.com/datasets/jayjoshi37/sleep-screen-time-and-stress-analysis/data)
 
 | 特征名称 | 译义 | 数据类型 | 预处理策略 |
 | :--- | :--- | :--- | :--- |
