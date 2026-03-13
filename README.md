@@ -17,3 +17,18 @@
 | **`notifications_received_per_day`** | 每日通知数 | `int` | **标准化**：外部干扰频率 |
 | **`mental_fatigue_score`** | **心理疲劳分值** | `float` | **标签 1**：线性回归预测目标 |
 | **`stress_level`** | **压力等级** | `int` | **标签 2**：Softmax 回归预测目标 |
+
+
+
+Epoch [10/100], Loss: 31.5534
+Epoch [20/100], Loss: 17.3332
+Epoch [30/100], Loss: 9.9393
+Epoch [40/100], Loss: 6.0904
+Epoch [50/100], Loss: 4.0840
+Epoch [60/100], Loss: 3.0363
+Epoch [70/100], Loss: 2.4877
+Epoch [80/100], Loss: 2.1993
+Epoch [90/100], Loss: 2.0468
+Epoch [100/100], Loss: 1.9652
+
+测试集 MSE Loss: 1.9419
