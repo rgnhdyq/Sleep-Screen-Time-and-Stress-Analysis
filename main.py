@@ -11,5 +11,6 @@ url = "https://raw.githubusercontent.com/rgnhdyq/Sleep-Screen-Time-and-Stress-An
 
 df = pd.read_csv(url)
 
-df.to_csv("data/Sleep_Health_and_Lifestyle_Dataset.csv", index=False)
+df.to_csv("data/sleep_mobile_stress_dataset_15000.csv", index=False)
+
 print("数据集下载完成！")
