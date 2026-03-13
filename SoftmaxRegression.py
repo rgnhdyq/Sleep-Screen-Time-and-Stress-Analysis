@@ -57,7 +57,6 @@ for epoch in range(epochs):
 torch.save(net, 'models/softmax_model.pth')
 
 
-# 7. 测试集验证准确率 (Accuracy)
 net.eval()
 with torch.no_grad():
     outputs = net(X_test)
@@ -67,8 +66,11 @@ with torch.no_grad():
     accuracy = correct / y_test.size(0)
     print(f'\n分类任务准确率: {accuracy * 100:.2f}%')
 
-# 8. 可视化
+
 plt.plot(train_losses)
 plt.title('Softmax Regression Loss')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.legend()
 plt.savefig('images/Softmax Loss.png')
 plt.show()
