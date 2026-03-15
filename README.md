@@ -44,7 +44,7 @@
 
 ### 下载代码文件
 ```bash
-curl.exe -L -O "https://raw.githubusercontent.com/rgnhdyq/Sleep-Screen-Time-and-Stress-Analysis/main/{DataPreprocessing.ipynb,LinearRegression.py,SoftmaxRegression.py,requirements.txt}"
+curl.exe -L -O "https://raw.githubusercontent.com/rgnhdyq/Sleep-Screen-Time-and-Stress-Analysis/main/{DataPreprocessing.ipynb,LinearRegression.py,SoftmaxRegression.py,requirements.txt,main.py}"
 ```
 ### 安装项目依赖
 ```
